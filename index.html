@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Excel Clone</title>
+</head>
+<body>
+  <div class="container">
+      <div class="title-bar">Book-1 Excel</div>
+      <div class="menu-bar">
+        <div class="menu-File menu-item">File</div>
+        <div class="menu-Home menu-item selected">Home</div>
+        <div class="menu-Layout menu-item">Layout</div>
+        <div class="menu-Insert menu-item">Insert</div>
+        <div class="menu-Help menu-item">Help</div>
+      </div>
+      <div class="menu-icon-bar">
+        <div class="material-icons menu-icon icon-bold">format_bold</div>
+        <div class="material-icons menu-icon icon-italic">format_italic</div>
+        <div class="material-icons menu-icon icon-underline">format_underline</div>
+        <select class= "selector font-family-selector">
+         
+          <option style="font-family: arial">Arial</option>
+          <option style="font-family: 'Times New Roman'">Times New Roman</option>
+          <option style="font-family: Verdana">Verdana</option>
+          <option style="font-family: 'Comic Sans Serif'">Comic Sans Serif</option>
+          <option style="font-family: 'Trebuchet MS'">Trebuchet MS</option>
+        </select>
+        <select class="selector font-size-selector">
+          <option value="2">2</option>
+          <option value="4">4</option>
+          <option value="8">8</option>
+          <option value="`12">12</option>
+          <option value="14">14</option>
+          <option value="16">16</option>
+          <option value="18">18</option>
+          <option value="20">20</option>
+          <option value="24">24</option>
+          <option value="28">28</option>
+        </select>
+        <div class="material-icons menu-icon icon-cut">content_cut</div>
+        <div class="material-icons menu-icon icon-copy">content_copy</div>
+        <div class="material-icons menu-icon icon-paste">content_paste</div>
+        <div class="material-icons menu-icon icon-align-right">format_align_right</div>
+        <div class="material-icons menu-icon icon-align-left">format_align_left</div>
+        <div class="material-icons menu-icon icon-align-center">format_align_center</div>
+        <div class="material-icons menu-icon icon-align-center">format_color_fill</div>
+        <div class="material-icons menu-icon icon-align-center">format_color_text</div>
+
+      </div>
+      <div class="formula-bar"></div>
+      <div class="data-container">
+          <div class="select-all"></div>
+         <div class="column-name-container"></div>
+          <div class="row-name-container"></div>
+          <div class="input-cell-container"></div>  
+      </div>
+      <div class="sheet-container">
+        <div class="scroller">
+          <div class="material-icons icon-left-scroll">arrow_left</div>
+          <div class="material-icons icon-right-scroll">arrow_right</div>
+        </div>
+        <div class="material-icons icon-add">add_circle </div>
+        <div class="sheet-tab-container">
+          <div class="sheet-tab">Sheet-1</div>
+        </div>
+      </div>
+  </div>
+    
+</body>
+</html>
